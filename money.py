@@ -27,7 +27,7 @@ class Currency:
         # Label für Ausgabe
         self.output_label = tk.Label(root, text="")
         self.output_label.pack(pady=10)
-# Wenn das geht dann hat die Fork Funktioniert
+# Forkfrokfrok
     def sprache(self):
         if self.label.cget("text") == "Gib deinen Betrag ein:":
             self.label.config(text="Enter Your Ammount:")
